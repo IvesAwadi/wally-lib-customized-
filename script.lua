@@ -138,24 +138,27 @@ function finity.new(isdark, gprojectName, thinProject)
 		finityData.ToggleKey = NewKey
 	
     if game.Players.LocalPlayer.Name == "Youtube_SirMeme" then
-    self2.tip.Text = "Skyblock | SirMeme Edition :D"
+    self2.tip.Text = "Bomb Simulator v2 | SirMeme"
     else
+    if game.Players.LocalPlayer.Name == "Altives" then
+    self2.tip.Text = "Bomb Simulator v2 | Ives"
     if syn then
-    self2.tip.Text = "Skyblock | Synapse Edition"
+    self2.tip.Text = "Bomb Simulator v2 | Synapse"
     else
     if CALAMARI_PLATFORM then
-    self2.tip.Text = "Skyblock | Octopus Edition"
+    self2.tip.Text = "Bomb Simulator v2 | Calamari"
     else
     if CALAMARI_WINDOWS or CALAMARI_MACOS then
-    self2.tip.Text = "Skyblock | Octopus Edition"
+    self2.tip.Text = "Bomb Simulator v2 | Calamari"
     else
     if KRNL_LOADED then
-    self2.tip.Text = "Skyblock | Krnl Edition"
+    self2.tip.Text = "Bomb Simulator v2 | Krnl"
     else
     if is_protosmasher_caller then
-    self2.tip.Text = "Skyblock | Proto Edition"
+    self2.tip.Text = "Bomb Simulator v2 | Proto"
     else
-    self2.tip.Text = "Skyblock | Support Edition"
+    self2.tip.Text = "Bomb Simulator v2 | Support"
+    end
     end
     end
     end
