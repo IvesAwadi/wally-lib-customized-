@@ -145,12 +145,6 @@ function finity.new(isdark, gprojectName, thinProject)
 
 	self2.ChangeToggleKey = function(NewKey)
 		finityData.ToggleKey = NewKey
-	
-    if game.Players.LocalPlayer.Name == "Youtube_SirMeme" then
-    self2.tip.Text = "Bomb Simulator v2 | SirMeme"
-    else
-    if game.Players.LocalPlayer.Name == "Altives" then
-    self2.tip.Text = "Bomb Simulator v2 | Ives"
     if syn then
     self2.tip.Text = "Bomb Simulator v2 | Synapse"
     else
@@ -167,8 +161,6 @@ function finity.new(isdark, gprojectName, thinProject)
     self2.tip.Text = "Bomb Simulator v2 | Proto"
     else
     self2.tip.Text = "Bomb Simulator v2 | Support"
-    end
-    end
     end
     end
     end
