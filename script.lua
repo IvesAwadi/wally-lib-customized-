@@ -1,12 +1,4 @@
 --Game: https://www.roblox.com/games/5041067762/COUNTDOWN-Bomb-Simulator
-
---https://detourious.gitbook.io/project-finity/docs
-if game:GetService("CoreGui"):FindFirstChild("FinityUI") then
-game.CoreGui.FinityUI:Destroy()
-end
-local desc = [[
-Thanks for using my script lol
-]]
 local finity = {}
 
 finity.theme = { -- light
