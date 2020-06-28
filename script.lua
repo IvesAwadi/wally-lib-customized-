@@ -149,8 +149,14 @@ function finity.new(isdark, gprojectName, thinProject)
     if KRNL_LOADED then
     self2.tip.Text = "Bomb Simulator v3 | Krnl"
     end
-    if is_protosmasher_caller then
-    self2.tip.Text = "Bomb Simulator v3 | Proto"
+    if PROTOSMASHER_LOADED then
+    self2.tip.Text = "Bomb Simulator v3 | Protosmasher"
+    end
+    if SENTINEL_LOADED then
+    self2.tip.Text = "Bomb Simulator v3 | Sentinel"
+    end
+    if Sirhurt then
+    self2.tip.Text = "Bomb Simulator v3 | Sirhurt"
     end
     self2.tip.Text = "Bomb Simulator v3 | Support"
     end
