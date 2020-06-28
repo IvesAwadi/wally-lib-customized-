@@ -142,23 +142,27 @@ function finity.new(isdark, gprojectName, thinProject)
     else
     if CALAMARI_PLATFORM then
     self2.tip.Text = "Bomb Simulator v3 | Calamari"
-    end
+    else
     if CALAMARI_WINDOWS or CALAMARI_MACOS then
     self2.tip.Text = "Bomb Simulator v3 | Calamari"
-    end
+    else
     if KRNL_LOADED then
     self2.tip.Text = "Bomb Simulator v3 | Krnl"
-    end
+    else
     if PROTOSMASHER_LOADED then
     self2.tip.Text = "Bomb Simulator v3 | Protosmasher"
-    end
+    else
     if SENTINEL_LOADED then
     self2.tip.Text = "Bomb Simulator v3 | Sentinel"
-    end
+    else
     if Sirhurt then
     self2.tip.Text = "Bomb Simulator v3 | Sirhurt"
-    end
+    else
     self2.tip.Text = "Bomb Simulator v3 | Support"
+    end
+    end
+    end
+    end
     end
     end
     end
