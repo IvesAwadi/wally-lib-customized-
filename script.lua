@@ -136,7 +136,7 @@ function finity.new(isdark, gprojectName, thinProject)
 	}
 
 	self2.ChangeToggleKey = function(NewKey)
-	finityData.ToggleKey = NewKey
+		finityData.ToggleKey = NewKey
     if syn then
     self2.tip.Text = "Bomb Simulator v3 | Synapse"
     else
@@ -149,17 +149,16 @@ function finity.new(isdark, gprojectName, thinProject)
     if KRNL_LOADED then
     self2.tip.Text = "Bomb Simulator v3 | Krnl"
     else
-    if PROTOSMASHER_LOADED then
-    self2.tip.Text = "Bomb Simulator v3 | Protosmasher"
+    if is_protosmasher_caller then
+    self2.tip.Text = "Bomb Simulator v3 | Proto"
     else
-    if SENTINEL_LOADED then
-    self2.tip.Text = "Bomb Simulator v3 | Sentinel"
+    self2.tip.Text = "Bomb Simulator v3 | Support"
     else
     if Sirhurt then
     self2.tip.Text = "Bomb Simulator v3 | Sirhurt"
     else
-    self2.tip.Text = "Bomb Simulator v3 | Support"
-    end
+    if Sirhurt then
+    self2.tip.Text = "Bomb Simulator v3 | Sirhurt"
     end
     end
     end
